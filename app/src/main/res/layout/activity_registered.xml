@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <include layout="@layout/include_titlebar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"
+        >
+
+        <EditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="用户名"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="年龄"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="简介"
+            android:lines="3"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/mRadioGroup"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            >
+            <RadioButton
+                android:id="@+id/rb_boy"
+                android:checked="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男"/>
+            <RadioButton
+                android:id="@+id/rb_girl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:text="女"/>
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/et_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:maxLines="1"
+            android:hint="密码"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:password="true"
+            android:maxLines="1"
+            android:hint="确认密码"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            />
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:hint="邮箱"
+            android:padding="5dp"
+            android:background="@drawable/selector_edittext_bg"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333"
+            android:padding="10dp"
+            android:text="注册成功需要前往邮箱验证，否则无法登录！"/>
+        <Button
+            android:id="@+id/btn_registered_do"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_button_bg"
+            android:text="注册"
+            android:textColor="@android:color/white"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

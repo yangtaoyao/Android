@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SmartBulter</string>
+    <string name="app_registered">register</string>
+    <string name="app_forgetpassword">resetpassword</string>
+</resources>

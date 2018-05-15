@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_popcontent_normal"
+    >
+
+    <LinearLayout
+        android:id="@+id/menu_yao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/selector_iconbutton_bg"
+        >
+        <ImageView
+            android:id="@+id/action_yao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yaoyiyao"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="摇一摇"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/menu_sao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:background="@drawable/selector_iconbutton_bg"
+        >
+        <ImageView
+            android:id="@+id/action_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/saoyisao"
+            android:layout_marginRight="10dp"
+            />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="扫一扫"
+            android:textColor="@color/colorPrimary"
+            />
+    </LinearLayout>
+</LinearLayout>

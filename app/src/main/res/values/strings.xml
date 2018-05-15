@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SmartBulter</string>
+    <string name="text_setting">Setting</string>
+    <string name="app_login">Login</string>
+    <string name="app_registered">register</string>
+    <string name="app_forgetpassword">resetpassword</string>
+    <string name="tool">工具</string>
+    <string name="home">主页</string>
+    <string name="find">发现</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/search"
+        android:title="搜索"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/action_scan"
+        android:title="扫一扫"
+        android:icon="@drawable/scan"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+    <item
+        android:id="@+id/action_yao"
+        android:title="摇一摇"
+        android:icon="@drawable/yao"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_feedback"
+        android:title="意见反馈"
+        android:icon="@drawable/feedback"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_setting"
+        android:title="设置"
+        android:icon="@drawable/setting02"
+        app:showAsAction="never"
+        />
+</menu>

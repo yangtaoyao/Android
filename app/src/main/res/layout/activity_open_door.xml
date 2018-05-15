@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    >
+
+    <include layout="@layout/include_titlebar"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恭喜你，摇到了一个笑话，笑笑更健康哦"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"/>
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/mOpen_doorText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="丈夫躺在床上，他得了感冒。亲爱的，如果我死了，你会因想念我而感到
+        有点忧郁吗？那当然，亲爱的，因为你是知道的，任何微不足道的小事我都要哭一场的。"
+        android:textSize="18dp"/>
+</LinearLayout>

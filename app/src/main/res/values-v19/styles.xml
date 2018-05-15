@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <!--<item name="android:actionOverflowButtonStyle">@style/weixinActionOverflowButtonStyle</item>-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!---->
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- To change the popup menu and app text color  -->
+        <item name="android:textColor">@android:color/black</item>
+        <!-- To change the background of options menu-->
+        <item name="android:itemBackground">@android:color/white</item>
+
+        <item name="actionBarSize">50dp</item>
+    </style>
+</resources>

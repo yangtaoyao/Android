@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:gravity="bottom|center_horizontal"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="50dp"
+        >
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"
+            android:src="@drawable/dabai4"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical|left"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/tv_splash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_centerHorizontal="true"
+                android:gravity="left"
+                android:layout_gravity="center_horizontal"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现生活的美好"
+                android:textSize="15dp"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_horizontal"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
